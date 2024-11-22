@@ -1,0 +1,81 @@
+  body {
+            background-color: #f8f9fa;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card:hover {
+            transform: scale(1.03);
+            transition: all 0.3s ease-in-out;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        .card-text {
+            color: #6c757d;
+            font-size: 1rem;
+        }
+        .search-container {
+            margin: 30px auto;
+            max-width: 800px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 50px;
+            background-color: #fff;
+        }
+
+        .search-container input[type="text"] {
+            width: 100%;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            color: #555;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-container input[type="text"]::placeholder {
+            color: #999;
+            font-size: 16px;
+        }
+
+        .search-container input[type="text"]:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+        }
+
+        .search-container button {
+            position: absolute;
+            right: 10px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            color: #fff;
+        }
+
+        .search-container button:hover {
+            background-color: #0056b3;
+        }
+
+        .search-container button i {
+            font-size: 20px;
+        }
+        
